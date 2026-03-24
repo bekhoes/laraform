@@ -1,0 +1,51 @@
+{
+    "name": "de-it/laraform-laravel",
+    "description": "Laraform Laravel package",
+    "version": "1.2.5",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "form",
+        "builder",
+        "generator"
+    ],
+    "homepage": "https://laraform.io",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "DE-IT",
+            "email": "info@de-it.nl"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/de-it/laraform-laravel/issues",
+        "docs": "https://laraform.io/docs"
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "hashids/hashids": "^3.0 || ^4.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laraform\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laraform\\LaraformServiceProvider"
+            ],
+            "aliases": {
+                "Laraform": "DEIT\\Laraform"
+            }
+        }
+    },
+    "config": {
+        "audit": {
+            "block-insecure": false
+        }
+    }
+}
