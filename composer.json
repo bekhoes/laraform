@@ -39,7 +39,7 @@
                 "Laraform\\LaraformServiceProvider"
             ],
             "aliases": {
-                "Laraform": "DE-IT\\Laraform"
+                "Laraform": "Laraform\\Facades\\Laraform"
             }
         }
     },
