@@ -8,7 +8,7 @@ Check out [laraform/laraform](https://github.com/laraform/laraform) repo or [Doc
 
 
 ``` bash
-composer require laraform/laraform-laravel
+composer require de-it/laraform-laravel
 ```
 
 ## Usage
